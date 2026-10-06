@@ -1,0 +1,2 @@
+Question: Explain the working principle of an ECG.
+Marks: 5

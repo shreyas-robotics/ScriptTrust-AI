@@ -1,0 +1,1 @@
+An ECG records the electrical activity of the heart using electrodes placed on the skin. The electrodes detect electrical signals produced by the heart, which are amplified and recorded as waveforms. These waveforms help assess the heart's rhythm and electrical activity.

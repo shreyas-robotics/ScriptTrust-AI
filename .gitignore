@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/
+
+# Hugging Face cache
+.cache/
+huggingface/
+models--*/
+
+# Temporary uploads
+data/answers/current_upload.jpg
+
+# Generated line crops
+data/lines/
+
+# Generated reports
+reports/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

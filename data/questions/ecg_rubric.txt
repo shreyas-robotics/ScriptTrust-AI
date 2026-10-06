@@ -1,0 +1,7 @@
+Criterion 1: Mentions electrical activity of the heart — 1 mark
+Criterion 2: Mentions electrodes — 1 mark
+Criterion 3: Explains detection of electrical signals — 1 mark
+Criterion 4: Explains recording/display as waveform — 1 mark
+Criterion 5: Gives a generally correct overall explanation — 1 mark
+
+Total: 5 marks
