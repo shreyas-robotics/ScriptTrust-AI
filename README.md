@@ -109,6 +109,16 @@ The system is designed around a **human-in-the-loop** workflow:
     ├── README.md
     └── .gitignore
 
+
+## Demo Screenshots
+
+### Evaluation Summary
+![Evaluation Summary](screenshots/evaluation-summary.png)
+
+### Examiner Review
+![Examiner Review](screenshots/examiner-review.png)
+
+
 ## Example Evaluation
 
 Example question:
