@@ -83,6 +83,15 @@ The system is designed around a **human-in-the-loop** workflow:
 - NumPy
 - Streamlit
 
+## How to Run
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/shreyas-robotics/ScriptTrust-AI.git
+cd ScriptTrust-AI
+```
+
 ## Project Structure
 
     ScriptTrust-AI/
