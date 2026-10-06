@@ -85,32 +85,29 @@ The system is designed around a **human-in-the-loop** workflow:
 
 ## Project Structure
 
-ScriptTrust-AI/
-│
-├── app/
-│   ├── dashboard.py
-│   ├── test_dashboard.py
-│   └── pages/
-│       └── 2_Test_Summary.py
-│
-├── data/
-│   ├── questions/
-│   └── answers/
-│
-├── src/
-│   ├── evaluator.py
-│   ├── hybrid_evaluator.py
-│   ├── line_detector.py
-│   ├── ocr.py
-│   ├── ocr_lines.py
-│   ├── rubric_evaluator.py
-│   ├── semantic_evaluator.py
-│   └── diagnostic.py
-│
-├── requirements.txt
-├── README.md
-└── .gitignore
-
+    ScriptTrust-AI/
+    ├── app/
+    │   ├── dashboard.py
+    │   ├── test_dashboard.py
+    │   └── pages/
+    │       └── 2_Test_Summary.py
+    ├── data/
+    │   ├── questions/
+    │   └── answers/
+    ├── src/
+    │   ├── diagnostic.py
+    │   ├── evaluator.py
+    │   ├── hybrid_evaluator.py
+    │   ├── line_detector.py
+    │   ├── ocr.py
+    │   ├── ocr_lines.py
+    │   ├── ocr_test.py
+    │   ├── rubric_evaluator.py
+    │   ├── semantic_evaluator.py
+    │   └── test_dashboard.py
+    ├── requirements.txt
+    ├── README.md
+    └── .gitignore
 
 ## Example Evaluation
 
