@@ -44,6 +44,7 @@ lines_dir = "data/lines"
 # ============================================================
 
 def read_file(path):
+
     with open(
         path,
         "r",
@@ -270,6 +271,7 @@ criteria = [
         "threshold": 0.55,
     },
 
+
     {
         "name": "Mentions electrodes",
 
@@ -294,6 +296,7 @@ criteria = [
 
         "threshold": 0.55,
     },
+
 
     {
         "name": "Detection of electrical signals",
@@ -321,6 +324,7 @@ criteria = [
         "threshold": 0.60,
     },
 
+
     {
         "name": "Recording/display as waveform",
 
@@ -345,6 +349,7 @@ criteria = [
 
         "threshold": 0.60,
     },
+
 
     {
         "name": "Generally correct overall explanation",
@@ -371,8 +376,10 @@ criteria = [
             "waveforms",
         ],
 
-        "threshold": 0.55,
+        # Changed from 0.55 to 0.60
+        "threshold": 0.60,
     },
+
 ]
 
 
@@ -381,14 +388,22 @@ criteria = [
 # ============================================================
 
 student_sentences = [
+
     line.strip()
+
     for line in normalized_lines
+
     if line.strip()
+
 ]
 
+
 student_embeddings = semantic_model.encode(
+
     student_sentences,
+
     convert_to_tensor=True,
+
 )
 
 
@@ -405,6 +420,7 @@ def contains_any(text, phrases):
 
 
 def canonical_concept(phrase):
+
     """
     Treat simple singular/plural variants as
     the same concept.
@@ -425,6 +441,7 @@ def count_unique_supporting_concepts(
     text,
     phrases,
 ):
+
     """
     Count unique supporting concepts rather than
     counting singular/plural variants separately.
