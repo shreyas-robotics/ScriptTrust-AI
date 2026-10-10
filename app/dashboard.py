@@ -24,6 +24,7 @@ from reportlab.platypus import (
     Table,
     TableStyle,
     Image as PDFImage,
+    PageBreak,
 )
 
 
@@ -807,6 +808,9 @@ def build_pdf_report(
     # --------------------------------------------------------
     # ANSWER IMAGE
     # --------------------------------------------------------
+
+    # Keep the answer heading with the handwritten image on a fresh page.
+    story.append(PageBreak())
 
     story.append(
         Paragraph(
