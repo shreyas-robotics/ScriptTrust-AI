@@ -3,7 +3,7 @@ torchvision==0.19.1
 transformers==4.53.3
 pillow==12.3.0
 sentencepiece==0.2.2
-opencv-python==5.0.0.93
+opencv-python-headless==5.0.0.93
 numpy
 streamlit
 sentence-transformers
